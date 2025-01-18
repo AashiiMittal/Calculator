@@ -27,5 +27,15 @@ public class Addition {
             int result5=num3;
         }
         System.out.println(result5);
+        if(num1<num2 && num1<num3){
+            int result6=num1;
+        }
+        if(num2<num1 && num2<num3){
+            int result6=num2;
+        }
+        if(num3<num1 && num3<num2){
+            int result6=num3;
+        }
+        System.out.println(result6);
     }
 }
