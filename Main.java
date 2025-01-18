@@ -7,6 +7,8 @@ public class Addition {
         int num1= sc.nextInt();
         System.out.println("Enter Second number: ");
         int num2 = sc.nextInt();
+        System.out.println("Enter Third number: ");
+        int num3 = sc.nextInt();
         int result= num1+num2;
         int result2= num1-num2;
         int result3= num1*num2;
@@ -15,5 +17,15 @@ public class Addition {
         System.out.println(result2);
         System.out.println(result3);
         System.out.println(result4);
+        if(num1>num2 && num1>num3){
+            int result5=num1;
+        }
+        if(num2>num1 && num2>num3){
+            int result5=num2;
+        }
+        if(num3>num1 && num3>num2){
+            int result5=num3;
+        }
+        System.out.println(result5);
     }
 }
