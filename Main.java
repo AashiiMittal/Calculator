@@ -8,6 +8,8 @@ public class Addition {
         System.out.println("Enter Second number: ");
         int num2 = sc.nextInt();
         int result= num1+num2;
+        int result2= num1-num2
         System.out.println(result);
+        System.out.println(result2);
     }
 }
